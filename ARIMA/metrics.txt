@@ -1,0 +1,19 @@
+ARIMA Forecasting Metrics
+========================================
+
+Target Variable: Average T.F. Heater Serpentine Coil Inlet Temperature
+ARIMA Order (p, d, q): (2, 1, 2)
+Train Size: 4608 samples (80%)
+Test Size: 1152 samples (20%)
+Model AIC: 18014.0168
+Model BIC: 18046.1934
+
+Training Performance Metrics:
+  MSE:  24.990704
+  RMSE: 4.999070
+  MAE:  1.682491
+
+Test Performance Metrics:
+  MSE:  14.256673
+  RMSE: 3.775801
+  MAE:  2.935594
