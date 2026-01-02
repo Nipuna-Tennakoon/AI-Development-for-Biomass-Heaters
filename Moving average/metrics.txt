@@ -1,0 +1,17 @@
+Moving Average Forecasting Metrics
+========================================
+
+Target Variable: Average T.F. Heater Serpentine Coil Inlet Temperature
+Window Size: 4
+Train Size: 4608 samples (80%)
+Test Size: 1152 samples (20%)
+
+Training Performance Metrics:
+  MSE:  2.447935
+  RMSE: 1.564588
+  MAE:  1.076885
+
+Test Performance Metrics:
+  MSE:  28.820500
+  RMSE: 5.368473
+  MAE:  4.520152
