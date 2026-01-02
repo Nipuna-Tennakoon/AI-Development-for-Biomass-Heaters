@@ -1,0 +1,18 @@
+Auto-Regressive (AR) Forecasting Metrics
+========================================
+
+Target Variable: Average T.F. Heater Serpentine Coil Inlet Temperature
+Lag Order (p): 5
+Train Size: 4608 samples (80%)
+Test Size: 1152 samples (20%)
+Model AIC: 18032.7785
+
+Training Performance Metrics:
+  MSE:  2.931783
+  RMSE: 1.712245
+  MAE:  1.102722
+
+Test Performance Metrics:
+  MSE:  14.918148
+  RMSE: 3.862402
+  MAE:  3.053886
