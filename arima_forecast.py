@@ -15,8 +15,8 @@ from datetime import date
 from statsmodels.tsa.arima.model import ARIMA
 
 # Configuration
-DATA_PATH = 'dataset/final_df_002.csv'
-TARGET_COLUMN = 'Average T.F. Heater Serpentine Coil Inlet Temperature'
+DATA_PATH = '/home/pasindu/AI-Development-for-Biomass-Heaters/data_cleaning/jun_july_merged.csv'
+TARGET_COLUMN = 'T.F. Heater Serpentine Coil Inlet Temperature'
 ARIMA_ORDER = (1, 0, 5)  # (p, d, q) - AR order, differencing order, MA order
 TRAIN_SIZE = 0.8  # 80% for training, 20% for testing
 OUTPUT_FOLDER = 'ARIMA'
