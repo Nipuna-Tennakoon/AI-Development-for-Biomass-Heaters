@@ -17,7 +17,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 # Configuration
 DATA_PATH = 'dataset/final_df_002.csv'
 TARGET_COLUMN = 'Average T.F. Heater Serpentine Coil Inlet Temperature'
-ARIMA_ORDER = (2, 1, 4)  # (p, d, q) - AR order, differencing order, MA order
+ARIMA_ORDER = (1, 0, 5)  # (p, d, q) - AR order, differencing order, MA order
 SEASONAL_ORDER = (1, 1, 1, 120)  # (P, D, Q, s) - Seasonal AR, differencing, MA, seasonal period
 TRAIN_SIZE = 0.8  # 80% for training, 20% for testing
 OUTPUT_FOLDER = 'SARIMA'
